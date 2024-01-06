@@ -1,6 +1,6 @@
 # CodingTest
 
-## StringBuilder
+#### StringBuilder
 <details>
   <summary>자세히</summary>
 
