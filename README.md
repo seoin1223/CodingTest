@@ -18,5 +18,5 @@
   3. toLowerCase() : 소문자로 변환
   4. toUpperCase() : 대문자로 변환
   5. concat(String) : 문자열 합치기
-  6. contain(String) : 포함하는지 여부 확인
+  6. contains(String) : 포함하는지 여부 확인
 </details>
