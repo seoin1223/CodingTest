@@ -1,12 +1,13 @@
 # CodingTest
 
-#### StringBuilder
+#### Char
 <details>
   <summary>자세히</summary>
 
-  1. append(String) : 추가
-  2. repeat(int) :현재 내용을 지정된 횟수만큼 반복하여 추가 -> string에서 사용 가능
-
+  1. Character.isUpperCase(char) : char이 대문자 여부 확인
+  2. Character.isLowerCase(char) : char이 소문자 여부 확인
+  3. Character.toUpperCase(char) : char의 대문자 반환
+  4. Character.toLowerCase(char) : char의 소문자 반환
 </details>
 
 #### String
@@ -27,6 +28,15 @@
   9. split() : 문자열을 특정 구분자를 기준으로 나누어 배열로 반환
   10. endsWith(string) : 문자열이 특정한 접미사로 끝나는지 여부 확인
   11. startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
+</details>
+
+#### StringBuilder
+<details>
+  <summary>자세히</summary>
+
+  1. append(String) : 추가
+  2. repeat(int) :현재 내용을 지정된 횟수만큼 반복하여 추가 -> string에서 사용 가능
+
 </details>
 
 
