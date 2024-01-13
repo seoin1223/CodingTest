@@ -25,6 +25,8 @@
   7. substring(int) : 해당 인덱스부터 끝까지 자르기
   8. charAt() :문자열에서 특정 위치에 있는 문자를 반환
   9. split() : 문자열을 특정 구분자를 기준으로 나누어 배열로 반환
+  10. endsWith(string) : 문자열이 특정한 접미사로 끝나는지 여부 확인
+  11. startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
 </details>
 
 
@@ -35,5 +37,16 @@
   1. Arrays.copyOfRange([],int, int) : 범위를 지정해서 일부 요소만을 복사
   2. Arrays.copyOf([],int) : 처음부터 int까지를 복사
 
+  
+</details>
+
+
+#### ArrayList
+<details>
+  <summary>자세히</summary>
+
+  1. add() : 추가
+  2. get(int) : 해당 index를 반환
+  3. size() : ArrayList 크기 반환
   
 </details>
