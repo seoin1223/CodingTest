@@ -1,5 +1,9 @@
 # CodingTest
 
+### 용어
+1. Method Reference : 자바의 람다 표현식을 간결하게 표현하기 위한 문법
+2. 
+
 #### Char
 <details>
   <summary>자세히</summary>
