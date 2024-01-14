@@ -56,6 +56,15 @@
   
 </details>
 
+#### List
+<details>
+  <summary>자세히</summary>
+
+  1. size() : List의 크기를 반환한다.
+  2. indexOf(object) : List의 원소중 Object의 원소의 index를 반환
+    
+</details>
+
 
 #### ArrayList
 <details>
@@ -64,5 +73,6 @@
   1. add() : 추가
   2. get(int) : 해당 index를 반환
   3. size() : ArrayList 크기 반환
+  4. remove(int) : 
   
 </details>
