@@ -46,6 +46,12 @@
   
   1. Arrays.copyOfRange([],int, int) : 범위를 지정해서 일부 요소만을 복사
   2. Arrays.copyOf([],int) : 처음부터 int까지를 복사
+  3. System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length) : 배열의 일부 또는 전체 요소를 다른 배열로 복사
+       src: 복사할 배열(소스 배열)
+       srcPos: 소스 배열에서 복사를 시작할 인덱스
+       dest: 복사된 요소가 들어갈 대상 배열(목적지 배열)
+       destPos: 대상 배열에서 복사를 시작할 인덱스
+       length: 복사할 요소의 개수  
 
   
 </details>
