@@ -19,8 +19,6 @@
   <summary>자세히</summary>
   <span><b> 문자열 + int = 문자열</b></span>
 
-  
-  
   1. String replaceAll(): 두 번째 매개변수로 정규 표현식과 일치하는 모든 패턴을 대체.
   2. String replace(): 첫 번째 발견된 문자열만을 대체
   3. String toLowerCase() : 소문자로 변환
@@ -32,6 +30,7 @@
   9. String[] split() : 문자열을 특정 구분자를 기준으로 나누어 배열로 반환
   10. Boolean endsWith(string) : 문자열이 특정한 접미사로 끝나는지 여부 확인
   11. Boolean startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
+  12. String trim() : 문자열의 앞과 뒤에서 공백을 제거
 </details>
 
 #### StringBuilder
