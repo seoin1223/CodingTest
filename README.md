@@ -21,17 +21,17 @@
 
   
   
-  1. replaceAll(): 두 번째 매개변수로 정규 표현식과 일치하는 모든 패턴을 대체.
-  2. replace(): 첫 번째 발견된 문자열만을 대체
-  3. toLowerCase() : 소문자로 변환
-  4. toUpperCase() : 대문자로 변환
-  5. concat(String) : 문자열 합치기
-  6. contains(String) : 포함하는지 여부 확인
-  7. substring(int) : 해당 인덱스부터 끝까지 자르기
-  8. charAt() :문자열에서 특정 위치에 있는 문자를 반환
-  9. split() : 문자열을 특정 구분자를 기준으로 나누어 배열로 반환
-  10. endsWith(string) : 문자열이 특정한 접미사로 끝나는지 여부 확인
-  11. startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
+  1. String replaceAll(): 두 번째 매개변수로 정규 표현식과 일치하는 모든 패턴을 대체.
+  2. String replace(): 첫 번째 발견된 문자열만을 대체
+  3. String toLowerCase() : 소문자로 변환
+  4. String toUpperCase() : 대문자로 변환
+  5. String concat(String) : 문자열 합치기
+  6. String contains(String) : 포함하는지 여부 확인
+  7. String substring(int) : 해당 인덱스부터 끝까지 자르기
+  8. Char charAt() :문자열에서 특정 위치에 있는 문자를 반환
+  9. String[] split() : 문자열을 특정 구분자를 기준으로 나누어 배열로 반환
+  10. Boolean endsWith(string) : 문자열이 특정한 접미사로 끝나는지 여부 확인
+  11. Boolean startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
 </details>
 
 #### StringBuilder
