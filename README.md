@@ -31,6 +31,7 @@
   10. Boolean endsWith(string) : 문자열이 특정한 접미사로 끝나는지 여부 확인
   11. Boolean startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
   12. String trim() : 문자열의 앞과 뒤에서 공백을 제거
+  13. String join(CharSequence delimiter, CharSequence... elements) : 문자열을 결합할 때 사용
 </details>
 
 #### StringBuilder
