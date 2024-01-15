@@ -54,7 +54,8 @@
        srcPos: 소스 배열에서 복사를 시작할 인덱스
        dest: 복사된 요소가 들어갈 대상 배열(목적지 배열)
        destPos: 대상 배열에서 복사를 시작할 인덱스
-       length: 복사할 요소의 개수  
+       length: 복사할 요소의 개수
+ 4. Boolean Arrays.equals([],[]) : 두 배열의 원소를 한번에 비교하여 boolean 값을 반환함
 
   
 </details>
