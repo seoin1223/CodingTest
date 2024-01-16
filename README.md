@@ -14,6 +14,7 @@
   4. Character.toLowerCase(char) : char의 소문자 반환
 </details>
 
+
 #### String
 <details>
   <summary>자세히</summary>
@@ -80,4 +81,13 @@
   3. size() : ArrayList 크기 반환
   4. remove(int) : 
   
+</details>
+
+
+#### Math
+<details>
+  <sumaary>자세히</sumaary>
+
+  1. int Min(int, int)
+  2. int Max(int, int)
 </details>
