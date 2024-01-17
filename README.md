@@ -2,7 +2,7 @@
 
 ## 목차
 1. [용어](#용어)
-2. [자료형](#-1data-types)
+2. [자료형](#1-data-types)
 3. [Math](#2-math)
 4. [List](#3-list)
 5. [Set](#4-set)
@@ -14,7 +14,7 @@
 1. Method Reference : 자바의 람다 표현식을 간결하게 표현하기 위한 문법
 2. 문자열 + int = 문자열
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
 <!-- 자료형 -->
 
 ### 1. Data Types
