@@ -29,12 +29,16 @@
     5. String concat(String) : 문자열 합치기
     6. String contains(String) : 포함하는지 여부 확인
     7. String substring(int) : 해당 인덱스부터 끝까지 자르기
-    8. Char charAt() :문자열에서 특정 위치에 있는 문자를 반환
-    9. String[] split() : 문자열을 특정 구분자를 기준으로 나누어 배열로 반환
-    10. Boolean endsWith(string) : 문자열이 특정한 접미사로 끝나는지 여부 확인
-    11. Boolean startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
-    12. String trim() : 문자열의 앞과 뒤에서 공백을 제거
-    13. String join(CharSequence delimiter, CharSequence... elements) : 문자열을 결합할 때 사용
+    8. String[] split() : 문자열을 특정 구분자를 기준으로 나누어 배열로 반환
+    9. String trim() : 문자열의 앞과 뒤에서 공백을 제거
+    10. String join(CharSequence delimiter, CharSequence... elements) : 문자열을 결합할 때 사용
+    
+    11. Char charAt() :문자열에서 특정 위치에 있는 문자를 반환
+
+    12. Boolean endsWith(string) : 문자열이 특정한 접미사로 끝나는지 여부 확인
+    13. Boolean startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
+
+    14. int indexOf(String) : 지정된 부분 문자열의 첫 번째 발생 인덱스를 반환
   </details>
   
   <details>
