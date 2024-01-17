@@ -39,6 +39,7 @@
     13. Boolean startsWith(string) : 문자열이 특정한 접두사로 시작하는지 여부 확인
 
     14. int indexOf(String) : 지정된 부분 문자열의 첫 번째 발생 인덱스를 반환
+    15. int lastIndexOf(String) : 문자열에서 주어진 문자열 또는 문자의 마지막으로 등장하는 위치의 인덱스를 반환
   </details>
   
   <details>
@@ -117,6 +118,20 @@
     3. 성능: 검색, 삽입, 삭제 연산은 HashSet과 유사하게 빠른 성능을 제공.
     4. null 허용: LinkedHashSet도 HashSet과 마찬가지로 null 값을 허용. 
   </details>
+
+### 5. 자료 구조
+  <details> 
+    <summary> Stack </summary>
+    
+    1. push(E item): 스택의 맨 위에 요소를 추가합니다.
+    2. pop(): 스택의 맨 위에서 요소를 제거하고 반환합니다.
+    3. peek(): 스택의 맨 위에 있는 요소를 반환하지만, 제거하지는 않습니다.
+    4. empty(): 스택이 비어있는지 여부를 반환합니다.
+    5. search(Object o): 스택에서 주어진 요소를 찾아 그 인덱스를 반환합니다.
+  
+  </details>
+  
+  
 
 
   
