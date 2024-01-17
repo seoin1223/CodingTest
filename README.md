@@ -86,8 +86,21 @@
 
 #### Math
 <details>
-  <sumaary>자세히</sumaary>
+  <summary>자세히</summary>
 
   1. int Min(int, int)
   2. int Max(int, int)
 </details>
+
+
+#### HashSet
+<details>
+  <summary>자세히</summary>
+
+  1. 중복 허용 x, 순서 x, null 허용
+  2. add(element) : 추가
+  3. remover(element) : 삭제
+  4. contains(element) : 존재 확인
+  
+</details>
+  
