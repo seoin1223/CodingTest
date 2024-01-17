@@ -4,7 +4,7 @@
 1. Method Reference : 자바의 람다 표현식을 간결하게 표현하기 위한 문법
 2. 
 
-#### Char
+#### 1. Char
 <details>
   <summary>자세히</summary>
 
@@ -15,7 +15,7 @@
 </details>
 
 
-#### String
+#### 2. String
 <details>
   <summary>자세히</summary>
   <span><b> 문자열 + int = 문자열</b></span>
@@ -35,7 +35,7 @@
   13. String join(CharSequence delimiter, CharSequence... elements) : 문자열을 결합할 때 사용
 </details>
 
-#### StringBuilder
+#### 3. StringBuilder
 <details>
   <summary>자세히</summary>
 
@@ -45,7 +45,7 @@
 </details>
 
 
-#### Array
+#### 4. Array
 <details>
   <summary>자세히</summary>
   
@@ -62,7 +62,7 @@
   
 </details>
 
-#### List
+#### 5. List
 <details>
   <summary>자세히</summary>
 
@@ -72,7 +72,7 @@
 </details>
 
 
-#### ArrayList
+#### 6. ArrayList
 <details>
   <summary>자세히</summary>
 
@@ -84,7 +84,7 @@
 </details>
 
 
-#### Math
+#### 7. Math
 <details>
   <summary>자세히</summary>
 
@@ -93,7 +93,7 @@
 </details>
 
 
-#### HashSet
+#### 8. HashSet
 <details>
   <summary>자세히</summary>
 
