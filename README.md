@@ -84,6 +84,7 @@
       
       1. size() : List의 크기를 반환한다.
       2. indexOf(object) : List의 원소중 Object의 원소의 index를 반환
+      3. List<E> subList(int from, int to) : 리스트의 일부를 추출하여 부분 리스트로 반환 (from ~ to-1)
     </details>
   
   
