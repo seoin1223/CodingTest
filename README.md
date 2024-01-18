@@ -85,6 +85,7 @@
 
 1. int Min(int, int) : 최소값 반환
 2. int Max(int, int) : 최대값 반환
+3. int ceil(int) = 항상 값을 올려서 반올림 
 
 </details>
 
