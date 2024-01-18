@@ -2,7 +2,7 @@
 
 ## 목차
 1. [용어](#용어)
-2. [자료형](#-1data-types)
+2. [자료형](#1-data-types)
 3. [Math](#2-math)
 4. [List](#3-list)
 5. [Set](#4-set)
