@@ -139,6 +139,22 @@
 
 <br>
 
+### 5. Map
+<details>
+   <summary>HashMap</summary>
+
+1.  키-값(Key-Value) 쌍을 저장하는 데 사용
+2. put(K key, V value): 지정된 키와 값을 매핑하여 맵에 추가합니다.
+3. get(Object key): 지정된 키에 매핑된 값을 반환합니다.
+4. remove(Object key): 지정된 키에 매핑된 항목을 삭제합니다.
+5. containsKey(Object key): 지정된 키가 맵에 포함되어 있는지 여부를 반환합니다.
+6. keySet(): 맵에 있는 모든 키를 반환합니다.
+7. values(): 맵에 있는 모든 값들을 반환합니다.
+8. entrySet(): 맵의 모든 키-값 쌍을 Map.Entry 객체로 반환합니다.
+</details>
+
+<br>
+
 ### 5. 자료 구조
 
 <details> 
