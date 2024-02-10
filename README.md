@@ -180,7 +180,74 @@
    1. Divide : 입력 배열을 피벗을 기준으로 비균등하게 2개의 부분 배열로 분할
    2. Conquer : 부분 배열을 정렬 (부분 배열의 크기가 충분히 작지 않으면 순환 호출을 이용하여 다시 분할 정복 방법 적용)
    3. Combine : 정렬된 부분 배열들을 하나의 배열에 합병한다.
-   
+3. Code
+   ```java
+   public static void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            // 피벗을 기준으로 배열을 분할하고 피벗의 위치를 찾습니다.
+            int pivotIndex = partition(arr, low, high);
+
+            // 피벗을 기준으로 분할된 두 부분 배열을 각각 재귀적으로 정렬합니다.
+            quickSort(arr, low, pivotIndex - 1);
+            quickSort(arr, pivotIndex + 1, high);
+        }
+    }
+
+    public static int partition(int[] arr, int low, int high) {
+        // 피벗을 선택합니다. 여기서는 가장 오른쪽 원소를 피벗으로 선택합니다.
+        int pivot = arr[high];
+        int i = low - 1; // 피벗보다 작은 원소들의 마지막 인덱스
+
+        // 배열을 순회하면서 피벗보다 작은 원소들을 왼쪽으로 이동시킵니다.
+        for (int j = low; j < high; j++) {
+            if (arr[j] < pivot) {
+                i++;
+                swap(arr, i, j);
+            }
+        }
+
+        // 피벗을 올바른 위치로 이동시킵니다.
+        swap(arr, i + 1, high);
+
+        return i + 1; // 피벗의 위치를 반환합니다.
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+   ```
+</details>
+
+<details>
+   <summary>버블 정렬</summary>
+
+1. 인접한 두 원소를 비교하여 필요에 따라 서로 교환하는 정렬 알고리즘 (원소들을 순차적으로 비교하면서 큰 || 작은 원소를 오른쪽으로 이동시켜 정렬하는 방식)
+2. 방법
+   1. 배열의 첫 번째 원소부터 마지막 원소까지 순회
+   2. 인접한 두 원소를 비교하여 순서가 잘못되어 있다면 서로 교환
+   3. 한번의 순회가 끝나면 가장 크거나 작은 원소가 배열의 가장 마지막으로 이동
+   4. 순회를 반복하면서 정렬이 완료될 때까지 위 과정 반복
+3. Code
+   ```java
+   public static void bubbleSort(int[] arr) {
+           int n = arr.length;
+           // 배열의 모든 원소를 순회합니다.
+           for (int i = 0; i < n - 1; i++) {
+               // 현재 원소와 그 다음 원소를 비교합니다.
+               // 가장 큰 값을 배열의 오른쪽으로 이동시킵니다.
+               for (int j = 0; j < n - i - 1; j++) {
+                   // 인접한 두 원소를 비교하여 순서가 잘못되어 있다면 교환합니다.
+                   if (arr[j] > arr[j + 1]) {
+                       int temp = arr[j];
+                       arr[j] = arr[j + 1];
+                       arr[j + 1] = temp;
+                   }
+               }
+           }
+       }
+   ```
 </details>
 
 
